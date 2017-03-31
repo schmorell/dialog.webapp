@@ -3,6 +3,7 @@
 import * as angular from 'angular';
 import {NgModule} from '@angular/core';
 import {UpgradeModule, downgradeComponent} from '@angular/upgrade/static';
+import "@progress/kendo-ui/js/kendo.dropdownlist.js";
 
 import {Repository} from './repository';
 import {MessageTextCmp} from './message_text_cmp';
